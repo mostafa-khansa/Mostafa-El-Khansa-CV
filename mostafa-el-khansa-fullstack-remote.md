@@ -30,9 +30,10 @@ and API design.
   Lebanon** on a recurring revenue model.
 - Rebuilt the legacy POS as a cross-platform **Flutter + SQLite** application with local-first data,
   integrated with the core ERP through a REST API I designed and maintain.
-- A shared document component (sales, orders, purchases) posted **10,000+ form fields**, so invoices
-  with ~300 line items silently saved only ~100. Replaced per-field POST with a **single JSON payload**
-  instead of raising PHP `max_input_vars`, so full documents persist.
+- Fixed **silent data loss** in the shared sales/orders/purchases document form: it posted
+  **10,000+ individual fields**, so invoices past ~100 line items saved partially with no error.
+  Replaced it with a **single JSON payload** — removing the limit rather than raising PHP's
+  `max_input_vars`.
 - Identified missing **commit/rollback** on multi-step document saves (e.g. invoice → inventory →
   accounting). Raised it with leadership and aligned the team on wrapping those flows in database
   transactions, and on surfacing failures instead of swallowing them.
