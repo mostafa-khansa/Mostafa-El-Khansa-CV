@@ -24,10 +24,10 @@ and API design.
 *Jal El Dib, Lebanon | Feb 2018 – Present*
 
 - Led the migration of a legacy desktop ERP to a web platform (PHP, MySQL, JavaScript), owning
-  application architecture and delivery. Started as the sole application engineer with one senior
-  database developer; as the team grew to **7 engineers**, I led and coached developers, and now
-  work alongside other lead engineers. The platform serves **2,000+ business clients across
+  application architecture and delivery. The platform serves **2,000+ business clients across
   Lebanon** on a recurring revenue model.
+- Started as the sole application engineer with one senior database developer. As the team grew
+  to **7 engineers**, I led and coached developers, and now work alongside other lead engineers.
 - Rebuilt the legacy POS as a cross-platform **Flutter + SQLite** application with local-first data,
   integrated with the core ERP through a REST API I designed and maintain.
 - Fixed **silent data loss** in the shared sales/orders/purchases document form: it posted
