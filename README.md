@@ -25,7 +25,7 @@ Open to **remote** roles with EU overlap and US-East mornings (based in Beirut, 
 
 **Frontend:** React, Next.js, TypeScript, JavaScript, Flutter (Dart)
 
-**Backend:** Node.js, PHP (Yii 1.1), Python, REST API design
+**Backend:** Node.js, PHP , REST API design
 
 **Data:** PostgreSQL, MySQL, SQLite, MongoDB, Prisma
 
